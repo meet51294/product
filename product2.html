@@ -1,0 +1,1718 @@
+<!doctype html>
+
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wine Archives - Page 2 of 8 - Just Fine Wine</title>
+
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        /* Style the tab */
+
+        .tab {
+            float: left;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            width: 20%;
+
+        }
+
+        /* Style the buttons inside the tab */
+
+        .tab button {
+
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            display: block;
+            color: #000100;
+            letter-spacing: 1px;
+            font-weight: 300;
+            padding-top: 12px;
+            padding-right: 15px;
+            padding-bottom: 12px;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+
+            position: relative;
+            font-size: 14px;
+            background-color: #fff;
+            -webkit-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+            border-bottom: 1px solid #dadada;
+            background-image: url(../images/icons/right-chevron_v3.png);
+            background-repeat: no-repeat;
+            background-size: 12px;
+            background-position: 100% 50%;
+            padding-left: 5px;
+        }
+
+        /* Change background color of buttons on hover */
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current "tab button" class */
+
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid #ccc;
+            width: 70%;
+            border-left: none;
+
+        }
+
+         .products {
+            margin: 0;
+            padding: 0;
+            display: block
+        }
+
+         .products .product {
+            width: 100%;
+            position: relative;
+            margin: 0;
+            float: none;
+            display: block;
+            border: 1px solid #d3d5d6;
+            margin-bottom: 1rem;
+            padding: 2rem 1rem 1rem;
+            background-color: #fff
+        }
+
+         .products .product .attachment-shop_catalog {
+            width: auto;
+            float: none;
+            display: inline-block
+        }
+
+         .products .product .keywords-link {
+            text-decoration: none
+        }
+
+         .products .product .keywords-link:active,
+         .products .product .keywords-link:focus,
+         .products .product .keywords-link:hover {
+            text-decoration: none!important
+        }
+
+         .products .product .woocommerce-loop-product__title {
+            padding: 0;
+            color: #505153;
+            font-size: 24px;
+            font-weight: 300!important;
+            margin-bottom: 6px;
+            font-family: Lato, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+        }
+
+         .products .product .acf-subtitle {
+            padding: 0;
+            font-size: 16px;
+            font-weight: 400
+        }
+
+         .products .product .product-content img {
+            display: inline-block;
+            width: auto
+        }
+
+         .products .product .product-content p strong {
+            display: inline-block
+        }
+
+         .products .product .onsale {
+            right: auto;
+            left: 0;
+            margin: -.5em 0 0 -.5em
+        }
+
+        @media (max-width:767px) {
+             .products .product {
+                padding: 1rem
+            }
+             .products .product .image-wrapper {
+                float: none;
+                width: 60%;
+                margin: 0 auto 2rem auto
+            }
+             .products .product .woocommerce-loop-product__title {
+                margin-bottom: 1rem;
+                font-size: 20px
+            }
+             .products .product .product-info-wrapper {
+                width: auto;
+                float: none
+            }
+        }
+
+        .grid-view .products .product {
+            clear: none!important;
+            text-align: center;
+            margin: 0 10px;
+            float: left;
+            min-height: 530px
+        }
+
+        .grid-view .products .product .acf-prices,
+        .grid-view .products .product .acf-stars,
+        .grid-view .products .product .product-content {
+            display: none
+        }
+
+        .grid-view .products .product .woocommerce-loop-product__title {
+            margin-bottom: 0!important
+        }
+
+        .grid-view .products .product .image-wrapper {
+            float: none;
+            margin-bottom: .4rem;
+            width: 100%
+        }
+
+        .grid-view .products .product .image-wrapper img {
+            margin-bottom: 1rem
+        }
+
+        .grid-view .products .product .woocommerce-loop-product__title {
+            margin-bottom: 4rem;
+            font-size: 20px
+        }
+
+        .grid-view .products .product .product-info-wrapper {
+            width: auto;
+            float: none;
+            width: 100%
+        }
+
+        .product .image-wrapper {
+            text-align: center;
+            float: left;
+            width: 20%;
+            border: none;
+            padding: 0;
+            margin-right: 2%
+        }
+
+        .product .product-info-wrapper {
+            width: 78%;
+            float: left
+        }
+
+        .product .wp-post-image {
+            display: inline-block;
+            max-width: 100%;
+            height: 100%
+        }
+
+        .product .retpricing {
+            font-size: 14px;
+            font-weight: 400
+        }
+
+        .product .wrap-product-title {
+            margin-bottom: 1rem
+        }
+
+        .product .ready-in {
+            font-size: 13px;
+            font-style: italic;
+            margin-bottom: 14px
+        }
+
+        .product .product-content p {
+            font-weight: 300
+        }
+
+        .wc-add-to-cart-form {
+            padding-left: 0
+        }
+
+        .wc-add-to-cart-form label {
+            font-weight: 600
+        }
+
+        @media (min-width:544px) {
+            .wc-add-to-cart-form {
+                padding-left: 22%
+            }
+        }
+
+        .wc-add-to-cart-form .left {
+            float: left
+        }
+
+        .wc-add-to-cart-form .wrap-button {
+            margin: 16px 0 0 10px
+        }
+
+        .wc-add-to-cart-form .wrap-button,
+        .wc-add-to-cart-form .wrap-quantity {
+            padding-top: 1rem
+        }
+
+        .products-slideshow .wc-add-to-cart-form {
+            display: none
+        }
+
+        .acf-active {
+            display: inline;
+            padding: 0;
+            margin: 0
+        }
+
+        .acf-icons-dollar .icon {
+            display: inline-block;
+            background-image: url(../images/dollar_blank.png);
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 25px;
+            margin-right: 1px;
+            background-size: 23px auto
+        }
+
+        .acf-icons-dollar .acf-active .icon {
+            background-image: url(../images/dollar.png)
+        }
+
+        .acf-stars {
+            padding: 2px 0 0
+        }
+
+        .acf-stars b {
+            font-size: 15px;
+            display: inline-block;
+            width: 90px
+        }
+
+        .acf-stars .icon {
+            display: inline-block;
+            position: relative;
+            top: 4px;
+            height: 17px;
+            width: 17px;
+            border-radius: 50%;
+            margin-right: 3px;
+            background-color: #e5e6e8;
+            -webkit-transition: all .4s ease;
+            -o-transition: all .4s ease;
+            transition: all .4s ease
+        }
+
+        .acf-stars .acf-active .icon {
+            background-color: #9abb1c
+        }
+
+        .acf-prices {
+            padding: 12px 0 0
+        }
+
+        .acf-prices .price-store {
+            margin-right: .5rem
+        }
+
+        .acf-badge {
+            width: 110px;
+            height: 110px;
+            display: block;
+            position: absolute;
+            right: -1px;
+            top: -1px;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-size: contain
+        }
+
+        .acf-badge.limited-edition,
+        .acf-badge.limited-release {
+            background-image: url(../images/banner_limited.png)
+        }
+
+        .acf-badge.gold {
+            background-image: url(../images/banner_gold.png)
+        }
+
+        .acf-badge.silver {
+            background-image: url(../images/banner_silver.png)
+        }
+
+        .acf-badge.bronze {
+            background-image: url(../images/banner_bronze.png)
+        }
+
+        .woocommerce .woocommerce-pagination a,
+        .woocommerce .woocommerce-pagination span {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, .6);
+            color: #fff;
+            -webkit-transition: all .4s ease;
+            -o-transition: all .4s ease;
+            transition: all .4s ease
+        }
+
+        .woocommerce .woocommerce-pagination a.current,
+        .woocommerce .woocommerce-pagination span.current {
+            background-color: rgba(0, 0, 0, .9)!important;
+            color: #fff!important
+        }
+
+        .ready-in {
+            font-style: italic;
+            padding-bottom: .75rem
+        }
+
+        .category-image {
+            margin-bottom: 2rem;
+            padding: 1rem 0
+        }
+
+        .category-image .cat-img {
+            margin-right: auto;
+            margin-left: auto;
+            display: block
+        }
+
+        .category-image .cat-title {
+            padding: 1rem 0 0 0
+        }
+
+        .post-type-archive-product .category-image,
+        .post-type-archive-product .product-filters-wrapper {
+            display: none
+        }
+
+        .tax-product_cat .category-image,
+        .tax-product_cat .product-filters-wrapper {
+            display: block
+        }
+
+        .product-shortcode .products {
+            margin: 0;
+            padding: 0;
+            display: block
+        }
+
+        .product-shortcode .products .product {
+            width: 100%;
+            position: relative;
+            margin: 0;
+            float: none;
+            display: block;
+            margin-bottom: 1rem;
+            padding: 0;
+            background-color: #fff
+        }
+
+        .product-shortcode .products .product .keywords-link {
+            text-decoration: none
+        }
+
+        .product-shortcode .products .product .keywords-link:active,
+        .product-shortcode .products .product .keywords-link:focus,
+        .product-shortcode .products .product .keywords-link:hover {
+            text-decoration: none!important
+        }
+
+        .product-shortcode .products .product .woocommerce-loop-product__title {
+            padding: 0;
+            color: #505153;
+            font-size: 24px;
+            font-weight: 300!important;
+            margin-bottom: 3px;
+            font-family: Lato, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+        }
+
+        .product-shortcode .products .product .acf-badge {
+            display: none
+        }
+
+        .product-shortcode .products .product .acf-subtitle {
+            padding: 0;
+            font-size: 16px;
+            font-weight: 400
+        }
+
+        .product-shortcode .products .product .onsale {
+            right: auto;
+            left: 0;
+            margin: -.5em 0 0 -.5em
+        }
+
+        .product-shortcode .products .product .image-wrapper {
+            display: none
+        }
+
+        @media (max-width:991px) {
+            .product-shortcode .products .product .woocommerce-loop-product__title {
+                margin-bottom: 1rem;
+                font-size: 20px;
+                text-align: left
+            }
+            .product-shortcode .products .product .product-info-wrapper {
+                width: auto;
+                float: none
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'One')" id="defaultOpen"> Wine</button>
+        <button class="tablinks" onclick="openCity(event, 'Two')">Specialty Wines</button>
+        <button class="tablinks" onclick="openCity(event, 'Three')"> Flavoured Wines</button>
+        <button class="tablinks" onclick="openCity(event, 'Four')"> LE18</button>
+        <button class="tablinks" onclick="openCity(event, 'Five')"> Coolers &#038; Ciders</button>
+        <button class="tablinks" onclick="openCity(event, 'Six')"> Retail &#038; Giftware</button>
+        <button class="tablinks" onclick="openCity(event, 'Seven')">Home Vintner Supplie</button>
+    </div>
+
+    <div id="One" class="tabcontent">
+        <ul class="products columns-4">
+            <li class="post-22177 product type-product status-publish has-post-thumbnail product_cat-specialty-wines product_cat-wine product_tag-6-weeks product_tag-apres product_tag-cabernet-franc product_tag-icewine product_tag-medium-full product_tag-none product_tag-red product_tag-specialty-wines product_tag-sweet first instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/cabernet-franc-icewine-style-2/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="255" height="750" src="/wp-content/uploads/2017/09/CabFranc-Ice-Wine.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/CabFranc-Ice-Wine.jpg 255w, /wp-content/uploads/2017/09/CabFranc-Ice-Wine-102x300.jpg 102w, /wp-content/uploads/2017/09/CabFranc-Ice-Wine-61x180.jpg 61w, /wp-content/uploads/2017/09/CabFranc-Ice-Wine-204x600.jpg 204w"
+                        sizes="(max-width: 255px) 100vw, 255px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=Cabernet Franc Icewine Style">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">Cabernet Franc Icewine Style</h2>
+                        <h3 class="acf-subtitle">Après</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>145.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>145.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/cabernet-franc-icewine-style-2/"></div>
+                        <p>Sweet and rich in texture, with pink and salmon tones, this wine is inviting with its irresistible
+                            aromas and flavors of honey, strawberry, cranberry and rose petal. Spice accents to the palate
+                            are persistent to the elegant and velvety finish. Excellent with rich chocolate desserts like
+                            the decadent cake at Chocolate triple fudge.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/cabernet-franc-icewine-style-2/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-6" data-active="6">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                            <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-4" data-active="4">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;145 (In Store) </span>
+                        <span class="price-home">&#36;90 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22201 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-4-weeks product_tag-bold-reds product_tag-cabernet-sauvignon product_tag-chai-maison product_tag-dry product_tag-light-oak product_tag-light-medium product_tag-red instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/cabernet-sauvignon/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1167" src="/wp-content/uploads/2017/09/red-cabsauv-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/red-cabsauv-sm.jpg 870w, /wp-content/uploads/2017/09/red-cabsauv-sm-77x300.jpg 77w, /wp-content/uploads/2017/09/red-cabsauv-sm-768x2987.jpg 768w, /wp-content/uploads/2017/09/red-cabsauv-sm-263x1024.jpg 263w, /wp-content/uploads/2017/09/red-cabsauv-sm-46x180.jpg 46w, /wp-content/uploads/2017/09/red-cabsauv-sm-154x600.jpg 154w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=Cabernet Sauvignon">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">Cabernet Sauvignon</h2>
+                        <h3 class="acf-subtitle">Chai Maison</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 4 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>105.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                        </cite>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>105.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/cabernet-sauvignon/"></div>
+                        <p>Deep dark colours and a richness of flavour combining firm tannins with ripe red fruits enhanced
+                            by oak.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/cabernet-sauvignon/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-2" data-active="2">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                        </cite>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-oak active-1" data-active="1">
+                        <b>Oak: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                        </cite>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;105 (In Store) </span>
+                        <span class="price-home">&#36;58 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22324 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-4-weeks product_tag-bold-reds product_tag-cabernet-sauvignon product_tag-dry product_tag-medium product_tag-medium-oak product_tag-red product_tag-vintners-reserve instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/cabernet-sauvignon-2/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1167" src="/wp-content/uploads/2017/09/red-cabsauv-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/red-cabsauv-sm.jpg 870w, /wp-content/uploads/2017/09/red-cabsauv-sm-77x300.jpg 77w, /wp-content/uploads/2017/09/red-cabsauv-sm-768x2987.jpg 768w, /wp-content/uploads/2017/09/red-cabsauv-sm-263x1024.jpg 263w, /wp-content/uploads/2017/09/red-cabsauv-sm-46x180.jpg 46w, /wp-content/uploads/2017/09/red-cabsauv-sm-154x600.jpg 154w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <span class="acf-badge "></span>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=Cabernet Sauvignon">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">Cabernet Sauvignon</h2>
+                        <h3 class="acf-subtitle">Vintners Reserve™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 4 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>133.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                        </cite>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>133.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/cabernet-sauvignon-2/"></div>
+                        <p>Deep ruby, with black currant and cedar on the nose.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/cabernet-sauvignon-2/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-3" data-active="3">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-oak active-2" data-active="2">
+                        <b>Oak: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                        </cite>
+                        <span class='icon icon-3'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;133 (In Store) </span>
+                        <span class="price-home">&#36;77 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22354 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-4-weeks product_tag-australia product_tag-bold-reds product_tag-cabernet-sauvignon product_tag-dry product_tag-medium-oak product_tag-medium-full product_tag-red product_tag-world-vineyard last instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/world-vineyard-cabernet-sauvignon-with-grape-skins-australia/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1167" src="/wp-content/uploads/2017/09/red-cabsauv-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/red-cabsauv-sm.jpg 870w, /wp-content/uploads/2017/09/red-cabsauv-sm-77x300.jpg 77w, /wp-content/uploads/2017/09/red-cabsauv-sm-768x2987.jpg 768w, /wp-content/uploads/2017/09/red-cabsauv-sm-263x1024.jpg 263w, /wp-content/uploads/2017/09/red-cabsauv-sm-46x180.jpg 46w, /wp-content/uploads/2017/09/red-cabsauv-sm-154x600.jpg 154w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=Cabernet Sauvignon with Grape Skins &#8211; Australia">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">Cabernet Sauvignon with Grape Skins &#8211; Australia</h2>
+                        <h3 class="acf-subtitle">World Vineyard™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 4 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/world-vineyard-cabernet-sauvignon-with-grape-skins-australia/"></div>
+                        <p>Sweet &amp; spicy on the nose, World Vineyard Australian Cabernet Sauvignon with Grape Skins is a
+                            fruit forward wine with flavours of cherry, raspberry and black currant finishing with rich,
+                            velvety tannins. Try with a charred gruyere burger, a mushroom pizza with tomato sauce or some
+                            marinated rib eye steak.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/world-vineyard-cabernet-sauvignon-with-grape-skins-australia/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-body active-4" data-active="4">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-oak active-2" data-active="2">
+                        <b>Oak: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                        </cite>
+                        <span class='icon icon-3'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;150 (In Store) </span>
+                        <span class="price-home">&#36;95 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22272 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-bold-reds product_tag-cabernet-sauvignon product_tag-dry product_tag-medium-oak product_tag-medium-full product_tag-red product_tag-selection product_tag-usa first instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-cabernet-sauvignon/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1167" src="/wp-content/uploads/2017/09/red-cabsauv-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/red-cabsauv-sm.jpg 870w, /wp-content/uploads/2017/09/red-cabsauv-sm-77x300.jpg 77w, /wp-content/uploads/2017/09/red-cabsauv-sm-768x2987.jpg 768w, /wp-content/uploads/2017/09/red-cabsauv-sm-263x1024.jpg 263w, /wp-content/uploads/2017/09/red-cabsauv-sm-46x180.jpg 46w, /wp-content/uploads/2017/09/red-cabsauv-sm-154x600.jpg 154w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Cabernet Sauvignon">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Cabernet Sauvignon</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-cabernet-sauvignon/"></div>
+                        <p>The noble California red grape. Rich in tannis, it produces a deep, full-bodied wine with intense
+                            aroma and flavour. A robust wine, perfect with red meat or wild game. Best when aged for several
+                            months.
+                        </p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-cabernet-sauvignon/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-4" data-active="4">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-oak active-2" data-active="2">
+                        <b>Oak: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                        </cite>
+                        <span class='icon icon-3'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22273 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-bold-reds product_tag-cabernet-sauvignon product_tag-dry product_tag-medium-oak product_tag-medium-full product_tag-merlot product_tag-red product_tag-selection product_tag-usa instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-cabernet-sauvignon-merlot/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1167" src="/wp-content/uploads/2017/09/red-cabmerlot-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/red-cabmerlot-sm.jpg 870w, /wp-content/uploads/2017/09/red-cabmerlot-sm-77x300.jpg 77w, /wp-content/uploads/2017/09/red-cabmerlot-sm-768x2987.jpg 768w, /wp-content/uploads/2017/09/red-cabmerlot-sm-263x1024.jpg 263w, /wp-content/uploads/2017/09/red-cabmerlot-sm-46x180.jpg 46w, /wp-content/uploads/2017/09/red-cabmerlot-sm-154x600.jpg 154w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <span class="acf-badge silver"></span>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Cabernet Sauvignon Merlot">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Cabernet Sauvignon Merlot</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-cabernet-sauvignon-merlot/"></div>
+                        <p>This popular blend combines the plump, fruity, earlier ageing Merlot grape with the robust Cabernet
+                            Sauvignon grape for a powerful match.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-cabernet-sauvignon-merlot/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-4" data-active="4">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-oak active-2" data-active="2">
+                        <b>Oak: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                        </cite>
+                        <span class='icon icon-3'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22274 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-chardonnay product_tag-dry product_tag-medium product_tag-medium-oak product_tag-rich-whites product_tag-selection product_tag-usa product_tag-white instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-chardonnay/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1187" src="/wp-content/uploads/2017/09/wh-chard-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/wh-chard-sm.jpg 852w, /wp-content/uploads/2017/09/wh-chard-sm-76x300.jpg 76w, /wp-content/uploads/2017/09/wh-chard-sm-768x3040.jpg 768w, /wp-content/uploads/2017/09/wh-chard-sm-259x1024.jpg 259w, /wp-content/uploads/2017/09/wh-chard-sm-152x600.jpg 152w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Chardonnay">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Chardonnay</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-chardonnay/"></div>
+                        <p>Full of citrus and tropical fruit flavours and warm vanilla oak</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-chardonnay/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-3" data-active="3">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-oak active-2" data-active="2">
+                        <b>Oak: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                        </cite>
+                        <span class='icon icon-3'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22260 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-medium-fruity-reds product_tag-medium-full product_tag-none product_tag-off-dry product_tag-red product_tag-selection product_tag-usa product_tag-zinfandel last instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-enigma/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="720" src="/wp-content/uploads/2017/09/enigma-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/enigma-sm.jpg 375w, /wp-content/uploads/2017/09/enigma-sm-125x300.jpg 125w, /wp-content/uploads/2017/09/enigma-sm-75x180.jpg 75w, /wp-content/uploads/2017/09/enigma-sm-250x600.jpg 250w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Enigma">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Enigma</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-enigma/"></div>
+                        <p>Introducing a bold, enigmatic blend from Selection. In the style of Apothic Red, California Enigma
+                            has intense fruit aromas and notes of black cherry, coffee, chocolate and vanilla. Full bodied
+                            with a smooth, round finish.</p>
+                        <p>Food friendly, this wine pairs well with everything from pizza to pasta and is a great match for
+                            meats like ribs or chicken with sweet and sticky marinade.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-enigma/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-2" data-active="2">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                        </cite>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-4" data-active="4">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22275 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-gewurztraminer product_tag-medium product_tag-none product_tag-off-dry product_tag-off-dry-whites product_tag-selection product_tag-usa product_tag-white first instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-gewurztraminer/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1187" src="/wp-content/uploads/2017/09/wh-gewurz-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/wh-gewurz-sm.jpg 852w, /wp-content/uploads/2017/09/wh-gewurz-sm-76x300.jpg 76w, /wp-content/uploads/2017/09/wh-gewurz-sm-768x3040.jpg 768w, /wp-content/uploads/2017/09/wh-gewurz-sm-259x1024.jpg 259w, /wp-content/uploads/2017/09/wh-gewurz-sm-152x600.jpg 152w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Gewürztraminer">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Gewürztraminer</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-gewurztraminer/"></div>
+                        <p>This immensely charming, exotic wine is true to its German translation: spicy. Deeply coloured and
+                            opulently aromatic, with an unmistakably flowery perfume and flavours of lychees and roses. Crisp,
+                            lush, and refreshing &#8211; a wonderful match with spicy foods, strong cheeses and fresh fruits.</p>
+                        <p>
+                            <a href="https://youtu.be/7rBfr593k7E" target="_blank" rel="noopener">Try it with our Thai &#8220;Noodle&#8221; Salad recipe</a>
+                        </p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-gewurztraminer/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-2" data-active="2">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                        </cite>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-3" data-active="3">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22270 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-dry product_tag-medium product_tag-medium-fruity-reds product_tag-medium-oak product_tag-merlot product_tag-red product_tag-selection product_tag-usa instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-merlot/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1167" src="/wp-content/uploads/2017/09/red-merlot-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/red-merlot-sm.jpg 870w, /wp-content/uploads/2017/09/red-merlot-sm-77x300.jpg 77w, /wp-content/uploads/2017/09/red-merlot-sm-768x2987.jpg 768w, /wp-content/uploads/2017/09/red-merlot-sm-263x1024.jpg 263w, /wp-content/uploads/2017/09/red-merlot-sm-46x180.jpg 46w, /wp-content/uploads/2017/09/red-merlot-sm-154x600.jpg 154w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Merlot">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Merlot</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-merlot/"></div>
+                        <p>The plump, lush fruitness of this respected grape translates into a wine which perfectly balances
+                            berry and spice flavours with a smooth, supple texture. Mouth-filling and delicious; a standout
+                            with grilled meats.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-merlot/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-3" data-active="3">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-oak active-2" data-active="2">
+                        <b>Oak: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                        </cite>
+                        <span class='icon icon-3'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22351 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-4-weeks product_tag-light product_tag-med-sweet product_tag-moscato product_tag-muscat product_tag-none product_tag-off-dry-whites product_tag-usa product_tag-white product_tag-world-vineyard instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-moscato-2/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1187" src="/wp-content/uploads/2017/09/wh-moscato-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/wh-moscato-sm.jpg 852w, /wp-content/uploads/2017/09/wh-moscato-sm-76x300.jpg 76w, /wp-content/uploads/2017/09/wh-moscato-sm-768x3040.jpg 768w, /wp-content/uploads/2017/09/wh-moscato-sm-259x1024.jpg 259w, /wp-content/uploads/2017/09/wh-moscato-sm-152x600.jpg 152w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Moscato">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Moscato</h2>
+                        <h3 class="acf-subtitle">World Vineyard™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 4 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>140.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>140.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-moscato-2/"></div>
+                        <p>Lush, fruity, and delightfully sweet with juicy peach and tropical fruit flavours.</p>
+                        <p>Alc: 8.5%</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-moscato-2/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-4" data-active="4">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-1" data-active="1">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                        </cite>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;140 (In Store) </span>
+                        <span class="price-home">&#36;86 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22352 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-4-weeks product_tag-dry product_tag-light-fruity-reds product_tag-light-oak product_tag-medium product_tag-pinot-noir product_tag-red product_tag-usa product_tag-world-vineyard last instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-pinot-noir-2/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1167" src="/wp-content/uploads/2017/09/red-pinotnoir-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/red-pinotnoir-sm.jpg 870w, /wp-content/uploads/2017/09/red-pinotnoir-sm-77x300.jpg 77w, /wp-content/uploads/2017/09/red-pinotnoir-sm-768x2987.jpg 768w, /wp-content/uploads/2017/09/red-pinotnoir-sm-263x1024.jpg 263w, /wp-content/uploads/2017/09/red-pinotnoir-sm-46x180.jpg 46w, /wp-content/uploads/2017/09/red-pinotnoir-sm-154x600.jpg 154w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <span class="acf-badge silver"></span>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Pinot Noir">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Pinot Noir</h2>
+                        <h3 class="acf-subtitle">World Vineyard™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 4 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>140.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>140.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-pinot-noir-2/"></div>
+                        <p>World Vineyard California Pinot Noir creates a lasting impression on the palate with an intense ripe-grape
+                            and black cherry aroma, accented by a spicy suggestion of cinnamon and mint. Medium-full bodied
+                            and rich but not heavy, it&#8217;s perfectly balanced with alcohol acid and tannin working harmoniously,
+                            and has substantial flavour despite its delicacy. It has an appealing soft, velvety texture,
+                            like liquid silk gently caressing the palate.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-pinot-noir-2/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-3" data-active="3">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-oak active-1" data-active="1">
+                        <b>Oak: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                        </cite>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;140 (In Store) </span>
+                        <span class="price-home">&#36;86 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22271 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-dry product_tag-light-aromatic-whites product_tag-light-medium product_tag-none product_tag-riesling product_tag-selection product_tag-usa product_tag-white first instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-riesling/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1187" src="/wp-content/uploads/2017/09/wh-riesling-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/wh-riesling-sm.jpg 852w, /wp-content/uploads/2017/09/wh-riesling-sm-76x300.jpg 76w, /wp-content/uploads/2017/09/wh-riesling-sm-768x3040.jpg 768w, /wp-content/uploads/2017/09/wh-riesling-sm-259x1024.jpg 259w, /wp-content/uploads/2017/09/wh-riesling-sm-152x600.jpg 152w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Riesling">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Riesling</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-riesling/"></div>
+                        <p>The character of this fine varietal is truly distinctive. Displays a flowery bouquet, complex fruit
+                            and cinnamon flavours and a crisp, clean finish. Versatile in pairing with foods, especially
+                            seafood, pork or veal.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-riesling/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-2" data-active="2">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                        </cite>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22269 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-dry product_tag-light-aromatic-whites product_tag-medium product_tag-none product_tag-sauvignon-blanc product_tag-selection product_tag-usa product_tag-white instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-sauvignon-blanc/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1187" src="/wp-content/uploads/2017/09/wh-sauvblanc-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/wh-sauvblanc-sm.jpg 852w, /wp-content/uploads/2017/09/wh-sauvblanc-sm-76x300.jpg 76w, /wp-content/uploads/2017/09/wh-sauvblanc-sm-768x3040.jpg 768w, /wp-content/uploads/2017/09/wh-sauvblanc-sm-259x1024.jpg 259w, /wp-content/uploads/2017/09/wh-sauvblanc-sm-152x600.jpg 152w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Sauvignon Blanc">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Sauvignon Blanc</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-sauvignon-blanc/"></div>
+                        <p>Crisp and flavourful, this popular grape varietal has distinctive and immediately recognizable aroma
+                            and flavour characteristics. The famous grassy, herbaceous bouquet and flinty aftertaste are
+                            here, with the generous acidity that is typical of the grape. Steely, grassy, and defiantly dry,
+                            nothing can complement a meal better than Sauvignon Blanc, a unique wine that offers a definitive
+                            counterpoint to the ubiquitous Chardonnay.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-sauvignon-blanc/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-3" data-active="3">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22268 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-dry product_tag-light-aromatic-whites product_tag-medium product_tag-none product_tag-selection product_tag-usa product_tag-viognier product_tag-white instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-viognier/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1187" src="/wp-content/uploads/2017/09/wh-viognier-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/wh-viognier-sm.jpg 852w, /wp-content/uploads/2017/09/wh-viognier-sm-76x300.jpg 76w, /wp-content/uploads/2017/09/wh-viognier-sm-768x3040.jpg 768w, /wp-content/uploads/2017/09/wh-viognier-sm-259x1024.jpg 259w, /wp-content/uploads/2017/09/wh-viognier-sm-152x600.jpg 152w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California Viognier">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California Viognier</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-viognier/"></div>
+                        <p>The intense fruitiness of this beguiling wine suggests rich sweetness, but it shows a surprisingly
+                            dry and aromatic finish. A delicate yellow colour, tinged with the variety&#8217;s typical &#8216;green-gold&#8217;
+                            hue, it bursts out of the glass with apricot, peach and spice aromas. As it matures, it can also
+                            display hints of jasmine, honeysuckle, kiwi, mint, orange blossom and even mango! While higher
+                            in alcohol than many white wines, it drinks well young nonetheless. Lower acidity makes it friendly
+                            to a wide range of foods, but it&#8217;s &#8216;soft but strong&#8217; character makes it excellent
+                            for sipping alone.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-viognier/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-1" data-active="1">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active"></cite>
+                        <span class='icon icon-1'></span>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-3" data-active="3">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+            <li class="post-22266 product type-product status-publish has-post-thumbnail product_cat-wine product_tag-6-weeks product_tag-medium product_tag-none product_tag-off-dry product_tag-rose product_tag-selection product_tag-usa product_tag-zinfandel last instock purchasable product-type-simple">
+                <a href="https://www.justfinewine.ca/product/california-white-zinfandel/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                <figure class="image-wrapper">
+                    <img width="300" height="1123" src="/wp-content/uploads/2017/09/blush-whitezin-sm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
+                        alt="" srcset="/wp-content/uploads/2017/09/blush-whitezin-sm.jpg 906w, /wp-content/uploads/2017/09/blush-whitezin-sm-80x300.jpg 80w, /wp-content/uploads/2017/09/blush-whitezin-sm-768x2874.jpg 768w, /wp-content/uploads/2017/09/blush-whitezin-sm-48x180.jpg 48w, /wp-content/uploads/2017/09/blush-whitezin-sm-160x600.jpg 160w"
+                        sizes="(max-width: 300px) 100vw, 300px">
+                </figure>
+                <div class="product-info-wrapper" data-keywords-url="?keywords=California White Zinfandel">
+                    <hgroup class="wrap-product-title">
+                        <h2 class="customize-title woocommerce-loop-product__title">California White Zinfandel</h2>
+                        <h3 class="acf-subtitle">Selection™</h3>
+                    </hgroup>
+                    <div class="ready-in">Ready in 6 weeks</div>
+                    <div class="product-price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </div>
+                    <div class="acf-icons-dollar">
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                            <span class='icon icon-4'></span>
+                        </cite>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">&#36;</span>173.00</span>
+                    </span>
+                    <div class="product-content">
+                        <div class="at-above-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-white-zinfandel/"></div>
+                        <p>Complete with
+                            <strong>Winexpert&#8217;s</strong> innovative F-pack, this blush favourite displays the trademark pink
+                            hues and a soft, refreshing taste that make it particularly enjoyable as a chilled delight on
+                            a summer afternoon. Must be tried to be believed.</p>
+                        <!-- AddThis Advanced Settings above via filter on the_content -->
+                        <!-- AddThis Advanced Settings below via filter on the_content -->
+                        <!-- AddThis Advanced Settings generic via filter on the_content -->
+                        <!-- AddThis Share Buttons above via filter on the_content -->
+                        <!-- AddThis Share Buttons below via filter on the_content -->
+                        <div class="at-below-post-arch-page addthis_tool" data-url="https://www.justfinewine.ca/product/california-white-zinfandel/"></div>
+                        <!-- AddThis Share Buttons generic via filter on the_content -->
+                    </div>
+                    <div class="acf-stars stars-sweetness active-2" data-active="2">
+                        <b>Sweetness: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                        </cite>
+                        <span class='icon icon-2'></span>
+                        <span class='icon icon-3'></span>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-stars stars-body active-3" data-active="3">
+                        <b>Body: </b>
+                        <cite class="acf-active">
+                            <span class='icon icon-1'></span>
+                            <span class='icon icon-2'></span>
+                            <span class='icon icon-3'></span>
+                        </cite>
+                        <span class='icon icon-4'></span>
+                        <span class='icon icon-5'></span>
+                    </div>
+                    <div class="acf-prices ">
+                        <span class="price-store">&#36;173 (In Store) </span>
+                        <span class="price-home">&#36;115 (Take Home) </span>
+                    </div>
+                </div>
+                <a href="#"></a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="Two" class="tabcontent">
+        <h3>Two</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Three" class="tabcontent">
+        <h3>Three</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <div id="Four" class="tabcontent">
+        <h3>Four</h3>
+        <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Five" class="tabcontent">
+        <h3>Five</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Six" class="tabcontent">
+        <h3>Six</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <div id="Seven" class="tabcontent">
+        <h3>Seven</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+</html>
